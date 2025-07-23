@@ -16,4 +16,4 @@ if(st.button("Predict the score")):
     }
     res=requests.post("https://score-train-1.onrender.com",json=data)
     result=res.json()
-    st.write("The Predicted Score is",result["Predicted_score"])
+    st.write("The Predicted score is",result["Predicted_score"])
